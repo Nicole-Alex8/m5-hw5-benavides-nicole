@@ -26,12 +26,12 @@ The accessibility tools identified the following issues:
 Accessibility Fixes
 
 I made the following changes base on the audit results:
-    - Color contrast: Fixed body, navigation and footer text: #0c0c0c; | Fixed "Internet Andrea" text: rgb(219, 51, 234);| Fixed navigation and footer background color: #d86fef;
-    - Heading structure: replaced <h3> with <h2> for the About Me and Reach out for a quote today! headers
-    - Form labels: Adding proper HTML <label> for Name, Email, and Message. | Adding id="" in between input and placeholder. 
-    - Creating a button: replacing <div class> with <button type>
-    - Main page region: Wrapped the primary page content (hero, about section & contact form) using <main>
-    - Keyboard Accessibility: I removed the textarea:focus { outline: none; } CSS style function
+    - Color contrast: Fixed body, navigation and footer text to #0c0c0c. Fixed the "Internet Andrea" text to rgb(219, 51, 234). Updated the navigation and footer background color to #d86fef. 
+    - Heading structure: Replaced <h3> with <h2> for the "About Me" and "Reach out for a quote today!" headings.
+    - Form labels: Added proper HTML <label> elements for Name, Email, and Message. Added matching id attributes to the form inputs.
+    - Button: Replaced the <div> element used for the button with a semantic <button type> element.
+    - Main page region: Wrapped the primary page content (hero, About section & contact form) in a <main> element.
+    - Keyboard Accessibility: Removed the textarea:focus { outline: none; } CSS rule so the focus outline remains visible when navigating with a keyboard.
 
 
 Final Audit
